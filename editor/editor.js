@@ -1,7 +1,7 @@
 var editorfun = (function () {
     var editorhtml =
         '<div class="editor">' +
-        '<textarea id="textplace" spellcheck="false">.</textarea>' +
+        '<textarea id="textplace" spellcheck="false"></textarea>' +
         '</div>';
     function editorshow() {
         $('#jsnotepad').append(editorhtml);
