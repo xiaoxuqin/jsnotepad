@@ -1,0 +1,139 @@
+.fontbox{
+    border: 1px #055ea7 solid;
+    box-sizing: border-box;
+    cursor: default;
+    height: 500px;
+    width: 439px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    user-select: none;
+    outline: none;
+    z-index: 100;
+}
+.font .titlebar{
+    background-color: white;
+    font-size: 12px;
+    height: 30px;
+}
+.font .title{
+    position: absolute;
+    left: 10px;
+    line-height: 30px;
+    margin: 0;
+}
+.font #close-btn{
+    color: rgb(192, 181, 181);
+    position: absolute;
+    right: 0;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.font #close-btn:hover{
+    color: white;
+    background-color:rgb(272, 17, 35);
+}
+.font .main{
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    height: 468px;
+    padding-left: 12px;
+    position: relative;
+}
+.font .font_family{
+    font-size: 12px;
+    height:30px;
+    display: inline-block;
+    margin-right: 146px;
+}
+.font .font_style{
+    height:30px;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 104px;
+}
+.font .font_size{
+    height:30px;
+    font-size: 12px;
+    display: inline-block;
+}
+.font .font_list1{
+    width: 176px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.font .font_list2{
+    width: 135px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.font .font_list3{
+    width: 70px;
+    display: inline-block;
+}
+.font .change {
+    border: 1px solid #0078d7;
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 20px;
+    width: 100%;
+}
+.font .list {
+    background-color: white;
+    border: 1px solid #828790;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 120px;
+    overflow-y: scroll;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+}
+.font .list li{
+    line-height: 16px;
+    padding-left: 2px;
+    font-size: 10px;
+    list-style-type: none;
+    margin-left: 0;
+} 
+#fontexample {
+    font-family: 隶书;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 2px;
+    margin-left: 25px;
+}
+.font .main .sample {
+    border-color: white;
+    height: 68px;
+    width: 194px;
+    margin-left: 195px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.font .main .script {
+  margin-left: 195px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.font .main .script select{
+    margin-top:4px;
+    font-size: 13px;
+    width: 215px;
+    height: 23px;
+}
+.font .main .btn{
+    width: 80px;
+}
+.font .main .ok {
+    bottom: 10px;
+    position: absolute;
+    right: 105px;
+}
+.font .main .cancel {
+    bottom: 10px;
+    position: absolute;
+    right: 16px;
+}

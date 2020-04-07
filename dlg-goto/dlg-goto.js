@@ -5,8 +5,7 @@ var $dlgGoto = (function () {
         num: 6,
         title: "同意",
         onClick:'null'
-    };
-
+    };  
 
     var html = '' + '<div class="notepad-dlg-goto">'
         +'<div class="dialogbox">'
@@ -39,7 +38,6 @@ var $dlgGoto = (function () {
 
         $dlg.click(cfg.onClick);
     }
-
 
     return {
         show: show
