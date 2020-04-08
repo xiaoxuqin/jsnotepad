@@ -3,6 +3,7 @@ node_js:
   - "node"
 
 after_script:
+  - grunt
   - cd ./dist
   - git init
   - git config user.name "xiaoxuqin"

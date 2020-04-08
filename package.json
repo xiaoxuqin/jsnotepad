@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/xiaoxuqin/jsnotepad/issues"
   },
-  "homepage": "https://github.com/xiaoxuqin/jsnotepad#readme"
+  "homepage": "https://github.com/xiaoxuqin/jsnotepad#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
 }
