@@ -1,0 +1,1 @@
+var editorfun={editorshow:function(){$("#jsnotepad").append('<div class="editor"><textarea id="textplace" spellcheck="false"></textarea></div>'),document.getElementById("textplace").focus()}};
